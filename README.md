@@ -1,3 +1,5 @@
+This is a movie finder app - 'Hooked to Movies', which gives a complete description of the movie. I have used 'http://www.omdbapi.com/' for the api calls and I have build this on React. 
+I have hosted this web-app using firebase : https://hooked-to-movies.web.app/ 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
