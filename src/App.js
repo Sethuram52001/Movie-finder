@@ -26,7 +26,7 @@ class App extends Component {
       ` http://www.omdbapi.com/?i=tt3896198&apikey=106206eb`
     );*/
     const api_call = await fetch(
-      ` http://www.omdbapi.com/?t=${searchValue}&apikey=106206eb`
+      ` https://www.omdbapi.com/?t=${searchValue}&apikey=106206eb`
     );
 
     const data = await api_call.json();

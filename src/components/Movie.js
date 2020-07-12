@@ -4,10 +4,10 @@ class Movie extends Component {
   render() {
     return (
       <div>
-        <div className="container">
+        <div className="container-Poster">
           {this.props.title && <img src={`${this.props.poster}`}></img>}
         </div>
-        <div className="container-fluid">
+        <div className="content">
           {this.props.title && <p>Title: {this.props.title}</p>}
           {this.props.title && <p>Director: {this.props.director}</p>}
           {this.props.title && <p>Actors: {this.props.actors}</p>}
